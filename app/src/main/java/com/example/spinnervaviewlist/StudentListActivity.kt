@@ -15,10 +15,10 @@ class StudentListActivity : AppCompatActivity() {
 
 
         val contacts = listOf(
-            Contact("Nguyễn Văn A", "HE170001", Color.parseColor("#FF5733")),
-            Contact("Trần Thị B", "HE170002", Color.parseColor("#4CAF50")),
-            Contact("Lê Văn C", "HE170003", Color.parseColor("#3F51B5")),
-            Contact("Phạm Thị D", "HE170004", Color.parseColor("#9C27B0"))
+            Contact("Nguyễn Văn A", "DE170001", Color.parseColor("#FF5733")),
+            Contact("Trần Thị B", "DE170002", Color.parseColor("#4CAF50")),
+            Contact("Lê Văn C", "DE170003", Color.parseColor("#3F51B5")),
+            Contact("Phạm Thị D", "DE170004", Color.parseColor("#9C27B0"))
         )
 
         val adapter = CustomAdapter(this, contacts)
